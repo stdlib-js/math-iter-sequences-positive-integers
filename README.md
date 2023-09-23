@@ -56,7 +56,7 @@ The sequence of positive integers `1, 2, 3, 4, ...` (OEIS [A000027][oeis-a000027
 To use in Observable,
 
 ```javascript
-iterPositiveIntegersSeq = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@umd/browser.js' )
+iterPositiveIntegersSeq = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -68,7 +68,7 @@ var iterPositiveIntegersSeq = require( 'path/to/vendor/umd/math-iter-sequences-p
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -157,7 +157,7 @@ var bool = it.next().done;
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
