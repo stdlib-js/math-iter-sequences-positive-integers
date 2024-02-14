@@ -54,6 +54,11 @@ The sequence of positive integers `1, 2, 3, 4, ...` (OEIS [A000027][oeis-a000027
 ## Usage
 
 ```javascript
+import iterPositiveIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-sequences-positive-integers/tags). For example,
+
+```javascript
 import iterPositiveIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@v0.2.0-deno/mod.js';
 ```
 
@@ -130,7 +135,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterPositiveIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@v0.2.0-deno/mod.js';
+import iterPositiveIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@deno/mod.js';
 
 // Create an iterator:
 var opts = {
