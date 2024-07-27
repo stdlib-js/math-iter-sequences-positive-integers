@@ -54,7 +54,7 @@ The sequence of positive integers `1, 2, 3, 4, ...` (OEIS [A000027][oeis-a000027
 ## Usage
 
 ```javascript
-import iterPositiveIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@deno/mod.js';
+import iterPositiveIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@v0.2.2-deno/mod.js';
 ```
 
 #### iterPositiveIntegersSeq( \[options] )
@@ -130,7 +130,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterPositiveIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@deno/mod.js';
+import iterPositiveIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-positive-integers@v0.2.2-deno/mod.js';
 
 // Create an iterator:
 var opts = {
